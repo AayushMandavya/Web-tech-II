@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<!DOCTYPE student[
+<!ELEMENT student
+(name,age,address,phone,study)>
+<!ELEMENT name
+(#PCDATA)>
+<!ELEMENT age
+(#PCDATA)>
+<!ELEMENT address
+(#PCDATA)>
+<!ELEMENT phone
+(#PCDATA)>
+<!ELEMENT study
+(#PCDATA)>
+
+]>
+
+<student>
+    <name>Aayush mandavya</name>
+    <age>23</age>
+    <address>Naikap,Chandragiri</address>
+    <phone>982313213</phone>
+    <study>BIT</study>
+</student>    
